@@ -1,0 +1,48 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 15px;
+  color: white;
+}
+
+.title-blog{
+  background: #282c34
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.comment-section{
+  border-top: solid 0.5px #61dafb;
+}
+
+.add-comment{
+  margin-top: 7px;
+  width: 90%;
+  height: 120px;
+}
+
+.add-comment-button{
+  margin-top: 5px;
+  display: block;
+}
+
+.comments-section{
+  width: 50%;
+  margin: 15px;
+  padding-left: 10px;
+}
+
+.comment-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-section-icon{
+  cursor: pointer;
+  padding: 20px 20px 0px 0px;
+}
