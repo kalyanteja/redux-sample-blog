@@ -50,8 +50,8 @@ class App extends React.Component {
           </div>
           <div className="comments-section">
             <textarea className="add-comment" value={this.props.currentComment} onChange={this.handleCommentChange} placeholder="Add your comment"></textarea>
-            <input type="text" className="add-comment-button" value={this.props.username} onChange={this.handleNameChange} placeholder="Your name"></input>
-            <button className="add-comment-button" onClick={() => this.addComment()}>Add comment!</button>
+            <input type="text" value={this.props.username} onChange={this.handleNameChange} placeholder="Your name"></input>
+            <i className="fas fa-paper-plane add-comment-button" alt="Add Comment" onClick={() => this.addComment()}></i>
           </div>
         </header>
         

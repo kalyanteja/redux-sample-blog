@@ -27,8 +27,9 @@
 }
 
 .add-comment-button{
-  margin-top: 5px;
+  margin-top: 15px;
   display: block;
+  cursor: pointer;
 }
 
 .comments-section{
